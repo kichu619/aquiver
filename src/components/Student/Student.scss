@@ -1,0 +1,34 @@
+.Student {
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+
+    &:hover,
+    &:active {
+        background-color: #C0DDF5;
+    }
+
+    button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 1px solid #fa923f;
+        background-color: #fa923f;
+        outline: 0;
+
+        &:hover,
+        &:active {
+            color: #fa923f;
+            background-color: white;
+            cursor: pointer;
+        }
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}

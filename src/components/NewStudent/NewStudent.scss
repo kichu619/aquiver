@@ -1,0 +1,49 @@
+.NewStudent {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+
+    label {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    input, select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;  
+    }
+
+    button {
+        margin: 5px 0;
+        padding: 10px;
+        font: inherit;
+        border: 1px solid #fa923f;
+        background-color: #fa923f;
+        color: white;
+        cursor: pointer;
+        width: 30%;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        &:hover{
+            color: #fa923f;
+            background-color: white;
+        }
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}
